@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #e0f7fa;
+    background-image: url('assets/stadium-bg.jpeg');
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    color: white;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 8px;
+    padding: 2vw;
+    text-align: center;
+    width: 60vw;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 3vh;
+}
+
+.btn-group button {
+    width: 20vw;
+    max-width: 120px;
+    height: 20vh;
+    max-height: 120px;
+    background-color: #039be5;
+    color: white;
+    font-size: 1.5vw;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn-group button img {
+    width: 6vw;
+    max-width: 60px;
+    margin-bottom: 1vh;
+}
+
+.display-msg {
+    margin-top: 20px;
+}
+
+.message {
+    margin-top: 3vh;
+    font-size: 2vw;
+    max-width: 90%;
+    margin: auto;
+    padding: 10px;
+}
+
+.winnermsg {
+    background-color: #4caf50;
+    margin-top: 20px;
+    border-radius: 8px;
+    color: white;
+}
+
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.8);
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.3s;
+}
+
+.modal.show {
+    visibility: visible;
+    opacity: 1;
+}
+
+.modal h2 {
+    padding-bottom: 10px;
+}
+
+.modal-content {
+    background: white;
+    padding: 3vw;
+    text-align: center;
+    border-radius: 8px;
+    width: max-content;
+    max-width: 400px;
+    color: black;
+    font-size: 18px;
+}
+
+.modal-content p {
+    text-align: left;
+    padding-left: 0px;
+}
+
+#closeModal {
+    background-color: #039be5;
+    color: white;
+    border: none;
+    padding: 1vw 1.5vw;
+    cursor: pointer;
+    margin-top: 1vw;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* mobile responsiveness */
+@media (max-width: 768px) {
+    .container {
+    width: 80vw;
+    height: max-content;
+    margin: auto;
+    }
+    
+    .container h1 {
+    font-size: 22px;
+    padding-top: 20px;
+    }
+    
+    .btn-group button {
+    width: 20vw;
+    height: 16vh;
+    max-width: none;
+    max-height: none;
+    font-size: 16px;
+    margin-bottom: 20px;
+    }
+    
+    .btn-group button img {
+    width: 16vw;
+    max-width: 80px;
+    }
+    
+    .modal-content {
+    width: 80vw;
+    padding: 5vw;
+    }
+    
+    #closeModal {
+    padding: 2vw 4vw;
+    margin-top: 6vw;
+    }
+    
+    .modal-content p {
+    text-align: left;
+    padding-left: 20px;
+    }
+    
+    .display-msg {
+    margin-top: 10px;
+    }
+    
+    .winnermsg {
+    background-color: #4caf50;
+    margin-top: 30px;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    }
+    
+    .message {
+    margin: 1vh;
+    font-size: 16px;
+    max-width: 100%;
+    padding: 2vw;
+    }
+    }

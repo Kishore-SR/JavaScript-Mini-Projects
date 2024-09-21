@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket Game - KSR</title>
+    <!-- Basic SEO Meta Tags -->
+    <meta name="description"
+        content="This is a simple JavaScript-based Cricket game where you choose between Bat, Ball, or Wicket and win based on the rules.">
+    <meta name="author" content="Kishore S R">
+    <meta name="keywords" content="Cricket Game, JavaScript, Game, Interactive, Web Development">
+
+    <link rel="shortcut icon" href="assets/title-img.jpeg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Game Rules -->
+    <div class="modal" id="rulesModal">
+        <div class="modal-content">
+            <h2>Game Rules</h2>
+            <p><i class="ri-play-line"></i> Bat wins against Ball</p>
+            <p><i class="ri-play-line"></i> Wicket wins against Bat</p>
+            <p><i class="ri-play-line"></i> Ball wins against Wicket</p>
+            <button id="closeModal">Got it!</button>
+        </div>
+    </div>
+
+    <main class="container">
+        <h1>Bat Ball Wicket Game</h1>
+        <div class="btn-group">
+            <button id="bat"><img src="assets/bat.png" alt="Bat">Bat</button>
+            <button id="ball"><img src="assets/ball.png" alt="Ball">Ball</button>
+            <button id="wicket"><img src="assets/wicket.png" alt="Wicket">Wicket</button>
+        </div>
+
+        <div class="display-msg">
+            <p class="message usermsg"></p>
+            <p class="message compmsg"></p>
+            <p class="message winnermsg">Choose any one</p>
+        </div>
+    </main>
+
+    <!-- Linking JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
