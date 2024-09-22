@@ -1,8 +1,5 @@
 
 ## JavaScript Mini Projects 💛
-
-![Image](https://github.com/user-attachments/assets/1e691249-8c95-45fc-95ac-e40ceaffd9c8)
-
 This repository contains mini projects built as part of my JavaScript learning journey. Each project is designed to understand core JavaScript concepts.
 
 [![Project Link](https://img.shields.io/badge/Projects%20Link-37a779?style=for-the-badge)](https://java-script-projects.web.app/)
