@@ -13,16 +13,16 @@ This repository contains mini projects built as part of my JavaScript learning j
 
 | Sl No. | Project                      | Live Demo                                                         |
 |-------:|------------------------------|-------------------------------------------------------------------|
-| 1      | [Simple Calculator](https://github.com/Kishore-SR/JavaScript-Mini-Projects/tree/main/Simple%20Calculator)   | [Live Link](https://thecalci.web.app/)   |
-| 2      | [Bat Ball Wicket](https://github.com/Kishore-SR/JavaScript-Mini-Projects/tree/main/Bat%20Ball%20Wicket)     | [Live Link](https://bat-ball-wicket.web.app/)     |
-| 3      | [Rolex Clock](https://github.com/Kishore-SR/JavaScript-Mini-Projects/tree/main/Rolex%20Clock)               | [Live Link](https://rolex-clock.web.app/)         |
-| 4      | [Virtual Dice](https://github.com/Kishore-SR/JavaScript-Mini-Projects/tree/main/Dice%20Roll%20Simulator)             | [Live Link](https://spin-dice.web.app/)        |
-| 5      | [QR Code Generator](https://github.com/Kishore-SR/JavaScript-Mini-Projects/tree/main/QR%20Code%20Generator) | [Live Link](https://pro-qr.web.app/)   |
-| 6      | [Digital Time](https://github.com/Kishore-SR/JavaScript-Mini-Projects/tree/main/Digital%20Time)             | [Live Link](https://time-ksr.web.app/)        |
-| 7      | [Real Time Char Counter](https://github.com/Kishore-SR/JavaScript-Mini-Projects/tree/main/Real%20Time%20Char%20Counter) | [Live Link](https://char-meter.web.app/)        |
-| 8      | [Images Spot](https://github.com/Kishore-SR/JavaScript-Mini-Projects/tree/main/Image%20Search%20Engine)               | [Live Link](https://images-spot.web.app/)         |
-| 9      | [Emoji Sum](https://github.com/Kishore-SR/JavaScript-Mini-Projects/tree/main/Emoji%20Sum)                   | [Live Link](https://emoji-sum.web.app/)           |
-| 10     | [New Year Countdown](https://github.com/Kishore-SR/JavaScript-Mini-Projects/tree/main/Next%20Year%20Countdown) | [Live Link](https://nxt-year.web.app/)  |
+| 1      | [Simple Calculator](https://github.com/Kishore-SR/JavaScript-Mini-Projects/tree/main/Simple%20Calculator)   | [Link](https://thecalci.web.app/)   |
+| 2      | [Bat Ball Wicket](https://github.com/Kishore-SR/JavaScript-Mini-Projects/tree/main/Bat%20Ball%20Wicket)     | [Link](https://bat-ball-wicket.web.app/)     |
+| 3      | [Rolex Clock](https://github.com/Kishore-SR/JavaScript-Mini-Projects/tree/main/Rolex%20Clock)               | [Link](https://rolex-clock.web.app/)         |
+| 4      | [Virtual Dice](https://github.com/Kishore-SR/JavaScript-Mini-Projects/tree/main/Dice%20Roll%20Simulator)             | [Link](https://spin-dice.web.app/)        |
+| 5      | [QR Code Generator](https://github.com/Kishore-SR/JavaScript-Mini-Projects/tree/main/QR%20Code%20Generator) | [Link](https://pro-qr.web.app/)   |
+| 6      | [Digital Time](https://github.com/Kishore-SR/JavaScript-Mini-Projects/tree/main/Digital%20Time)             | [Link](https://time-ksr.web.app/)        |
+| 7      | [Real Time Char Counter](https://github.com/Kishore-SR/JavaScript-Mini-Projects/tree/main/Real%20Time%20Char%20Counter) | [Link](https://char-meter.web.app/)        |
+| 8      | [Images Spot](https://github.com/Kishore-SR/JavaScript-Mini-Projects/tree/main/Image%20Search%20Engine)               | [Link](https://images-spot.web.app/)         |
+| 9      | [Emoji Sum](https://github.com/Kishore-SR/JavaScript-Mini-Projects/tree/main/Emoji%20Sum)                   | [Link](https://emoji-sum.web.app/)           |
+| 10     | [New Year Countdown](https://github.com/Kishore-SR/JavaScript-Mini-Projects/tree/main/Next%20Year%20Countdown) | [Link](https://nxt-year.web.app/)  |
 
 
 ### Make Your Contribution 🚀 
